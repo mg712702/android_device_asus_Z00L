@@ -27,6 +27,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
+TARGET_BOOT_ANIMATION_RES :=720
 
 # Inherit from msm8916-common
 $(call inherit-product, device/asus/msm8916-common/msm8916.mk)
